@@ -1,0 +1,55 @@
+"Severity","ThreadID","Date","Time","Application","Message"
+"ERROR","http-bio-8080-exec-2","05/24/2016","12:02:27","",";invalid component definition [lucee.Application];invalid component definition [lucee.Application]
+	at lucee.runtime.component.ComponentLoader.initComponent(Unknown Source):-1
+	at lucee.runtime.component.ComponentLoader.loadComponent(Unknown Source):-1
+	at lucee.runtime.component.ComponentLoader.loadComponent(Unknown Source):-1
+	at lucee.runtime.listener.ModernAppListener._onRequest(Unknown Source):-1
+	at lucee.runtime.listener.ModernAppListener.onRequest(Unknown Source):-1
+	at lucee.runtime.PageContextImpl.execute(Unknown Source):-1
+	at lucee.runtime.PageContextImpl.execute(Unknown Source):-1
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(Unknown Source):-1
+	at lucee.loader.servlet.CFMLServlet.service(Unknown Source):-1
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722):722
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224):224
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169):169
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168):168
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98):98
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927):927
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407):407
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:987):987
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579):579
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:309):309
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146):1146
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615):615
+	at java.lang.Thread.run(Thread.java:701):701
+"
+"ERROR","http-bio-8080-exec-5","05/24/2016","12:02:33","",";invalid component definition [lucee.Application];invalid component definition [lucee.Application]
+	at lucee.runtime.component.ComponentLoader.initComponent(Unknown Source):-1
+	at lucee.runtime.component.ComponentLoader.loadComponent(Unknown Source):-1
+	at lucee.runtime.component.ComponentLoader.loadComponent(Unknown Source):-1
+	at lucee.runtime.listener.ModernAppListener._onRequest(Unknown Source):-1
+	at lucee.runtime.listener.ModernAppListener.onRequest(Unknown Source):-1
+	at lucee.runtime.PageContextImpl.execute(Unknown Source):-1
+	at lucee.runtime.PageContextImpl.execute(Unknown Source):-1
+	at lucee.runtime.engine.CFMLEngineImpl.serviceCFML(Unknown Source):-1
+	at lucee.loader.servlet.CFMLServlet.service(Unknown Source):-1
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:722):722
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305):305
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210):210
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:224):224
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:169):169
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:168):168
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98):98
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:927):927
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118):118
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:407):407
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:987):987
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:579):579
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:307):307
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1146):1146
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615):615
+	at java.lang.Thread.run(Thread.java:701):701
+"

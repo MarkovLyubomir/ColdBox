@@ -1,0 +1,1 @@
+{"virtualbox":{"/sites/webroot":{"owner":"tomcat7","guestpath":"/sites/webroot","hostpath":"/Library/Server/Web/Data/Sites/coldbox.local/webroot","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Library/Server/Web/Data/Sites/coldbox.local","disabled":false,"__vagrantfile":true}}}
