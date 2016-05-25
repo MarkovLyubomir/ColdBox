@@ -8,7 +8,6 @@ ColdBox running on Lucee server on Vagrant virtual environment.
     git clone https://github.com/MarkovLyubomir/ColdBox.git
     cd ColdBox
     vagrant up
-    vagrant reload --provision
   ```
 
 You now can access ColdBox installation on [http://192.168.33.10:8080/](http://192.168.33.10:8080/).
